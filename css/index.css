@@ -1,0 +1,456 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .header {
+    margin: 4rem 0 0 0;
+  }
+  
+  
+  .header .nav .nav_navbar {
+    display: flex;
+    list-style-type: none;
+  }
+  .nav_logo{
+    margin-left: 4%;
+  }
+  .header .nav .nav_navbar li {
+    margin: 0 0 0 3.2rem;
+  }
+  
+  .header .nav .nav_navbar li a {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #07043b;
+    text-decoration: none;
+  }
+  
+  .features {
+    display: flex;
+    align-items: center;
+    padding: 18vh 0 0 0;
+  }
+  
+  .features .features_content h1 {
+    margin: 0 0 1vh 6.1vh;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #07043b;
+  }
+  
+  .features .features_content p {
+    margin: 0 0 2vh 6.1vh;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;  
+    letter-spacing: 0.53125px;
+    color: #07043b;
+  }
+  
+  .features .features_content_cta {
+    display: flex;
+    align-items: center;
+  }
+  
+  .features .features_content input {
+    padding: 1rem 6rem 1rem 1rem;
+    margin: 0 1rem 0 6.1vh;
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    max-height: 45px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.466667px;
+    color: #c2c2c2;
+  }
+  
+  .features .features_content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 45px;
+    background: #2f65f8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    border-color: transparent;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    cursor: pointer;
+  }
+  
+
+  .back_container{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    height: 800.37px;
+    margin: 0 auto;
+    background-image: url(Rectangle.png);
+    margin-top: 107px;
+    background-repeat: no-repeat;
+  }
+  .main_content{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .main_content h1{
+    margin: 195px 0px 0px 4%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #07043B;
+    position: absolute;
+    
+  }
+  
+  .main_content .one {
+    margin: 0 0 0vh 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    position: absolute;
+    z-index: 9;
+    left: 4%;
+    right: 57.71%;
+    top: 300px;
+    bottom: 62.89%;
+  
+  }
+  
+  .main_content .two{
+    margin: 0 0 0vh 0;
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #07043B;
+    position: absolute;
+    z-index: 9;
+    left: 4%;
+    right: 57.71%;
+    top: 366px;
+    bottom: 62.89%;
+  }
+  
+  .main_content .three{
+    position: absolute;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3DA08F;
+  z-index: 9;
+  left: 4%;
+  right: 57.71%;
+  top: 426px;
+  bottom: 62.89%;
+  cursor: pointer;
+  
+  }
+  .main_content .three::before{
+    content: "";
+    width: 165px;
+    height: 1px;
+    position: absolute;
+    top: 18px;
+    background: #3DA08F;
+    
+  }
+  
+  .main_content .ramka{
+    box-sizing: border-box;
+    max-width: 356px;
+    max-height: 215px;
+    border-radius: 5px;
+    padding: 32px 34px 74px 33px ;
+    margin-top: 100px;
+    position: absolute;
+    top: 410px;
+    left: 4%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+    border-radius: 5px;
+  
+  }
+  .main_content .four{
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  color: #07043B;
+  }
+  
+  .oval {
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    float: left;
+    position: relative;
+    top: -20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .oval p {
+  
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.550000011920929px;
+    text-align: left;
+    color: #07043B;
+    position: absolute;
+    left: 41px;
+    top: 38px;
+  
+  }
+  
+  .oval h1 {
+  
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    position: absolute;
+    top: -139px;
+    left: 30px;
+  }
+  
+  .main_content .user{
+    position: absolute;
+    top: 150px;
+    z-index: 9;
+  }
+  
+  .main_illustration{
+    position: absolute;
+    left: 818px;
+    right: 80px;
+    top: 219px;
+    bottom: 226px;
+  }
+  .subscription{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    height: 322px;
+    margin: 0 auto;
+    background: #575988;
+  
+  }
+  
+  .subscription .sub_content h1 {
+    margin: 100px 0 17px 6.1vh;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    position: absolute;
+    height: 48px;
+    left: 0%;
+    right: 35.08%;
+  }
+  
+  .subscription .sub_content .sub {
+    margin: 17px 0 2vh 6.1vh;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 47.45%;
+    padding-right: 860px;
+    box-sizing: border-box;
+    text-align: start;
+  }
+  
+  .subscription .sub_email_cta {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscription .sub_content input {
+    position: absolute;
+    padding: 1rem 6rem 1rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    max-width: 480px;
+    max-height: 48px;
+    outline: transparent;
+    border-radius: 3.13px;
+    border-color: transparent;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.466667px;
+    color: #c2c2c2;
+    top: 112px;
+    right: 120px;
+    bottom: 152.54px;
+    left: 840px;
+  
+  }
+  
+  
+  .subscription .sub_content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 45px;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 3.125px;
+    border-color: transparent;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 182px;
+    right: 422px;
+    bottom: 88.54px;
+    left: 840px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .footer_content{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    height: 391px;
+    margin: 0 auto;
+    background: #07043B;
+  }
+  
+  .footer_logo{
+    position: absolute;
+    top: 92px;
+    right: 1225px;
+    bottom: 260px;
+    left: 83px;
+  }
+  
+  
+  .footer2 li {
+   display: flex;
+  }
+  
+  .footer2 .nomer {
+    padding: 4px;
+    position: absolute;
+    z-index: 9;
+    top: 168px;
+    left: 83px;
+  }
+  
+  .footer2 .email {
+    padding: 4px;
+    position: absolute;
+    z-index: 9;
+    top: 213px;
+    left: 83px;
+  }
+  
+  .footer2 a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .about_us_block{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    left: 524px;
+    top: 168px;
+    color: white;
+  }
+  .about_us_block ul li{
+    padding-bottom: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .contact_us_block{
+    color: white;
+    left: 793px;
+    position: absolute;
+    top: 168px;
+  
+  }
+  
+  .contact_us_block ul li{
+    list-style-type: none;
+    padding-bottom: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+  }
